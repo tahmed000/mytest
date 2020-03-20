@@ -1,0 +1,5 @@
+﻿systemutil.Run "iexplore.exe","http://newtours.demoaut.com/"
+Browser("Welcome: Mercury Tours").Page("Welcome: Mercury Tours").WebEdit("userName").Set "mercury" @@ hightlight id_;_Browser("Welcome: Mercury Tours").Page("Welcome: Mercury Tours").WebEdit("userName")_;_script infofile_;_ZIP::ssf1.xml_;_
+Browser("Welcome: Mercury Tours_2").Page("Welcome: Mercury Tours").WebEdit("password").Set "mercury" @@ hightlight id_;_Browser("Welcome: Mercury Tours 2").Page("Welcome: Mercury Tours").WebEdit("password")_;_script infofile_;_ZIP::ssf2.xml_;_
+Browser("Welcome: Mercury Tours_3").Page("Welcome: Mercury Tours").Image("Sign-In"). @@ hightlight id_;_Browser("Find a Flight: Mercury_3").Page("Find a Flight: Mercury")_;_script infofile_;_ZIP::ssf6.xml_;_
+Browser("Find a Flight: Mercury_4").CloseAllTabs
